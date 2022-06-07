@@ -80,17 +80,17 @@ def afisare6():
 
 
 def but1():
-    Button(root, text='Afiseaza graficul',command=afisare1).pack()
+    Button(root, text='Afiseaza graficul 1',command=afisare1).pack()
 def but2():
-    Button(root, text='Afiseaza graficul',command=afisare2).pack()
+    Button(root, text='Afiseaza graficul 2',command=afisare2).pack()
 def but3():
-    Button(root, text='Afiseaza graficul',command=afisare3).pack()
+    Button(root, text='Afiseaza graficul 3',command=afisare3).pack()
 def but4():
-    Button(root, text='Afiseaza graficul',command=afisare4).pack()
+    Button(root, text='Afiseaza graficul 4',command=afisare4).pack()
 def but5():
-    Button(root, text='Afiseaza graficul',command=afisare5).pack()
+    Button(root, text='Afiseaza graficul 5',command=afisare5).pack()
 def but6():
-    Button(root, text='Afiseaza graficul',command=afisare6).pack()
+    Button(root, text='Afiseaza graficul 6',command=afisare6).pack()
 
 
 Radiobutton(root, text="Numar de biblioteci", variable=r, value=1, command=but1).pack(anchor=W)
